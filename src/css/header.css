@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+nav, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+  }
+
+nav{
+    background-color: black;
+    padding: 20px 0px;
+}
+
+nav a{
+    color: aquamarine;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #555; 
+  }
